@@ -1,4 +1,4 @@
-function convertToUpper(cityName) {
+window.convertToUpper = function(cityName) {
   return cityName.toUpperCase();
 }
 
