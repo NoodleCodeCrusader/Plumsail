@@ -1,8 +1,8 @@
-function DawaZipCodeLookUp (zipField, cityField) {
+function DawaZipCodeLookUp () {
     //const zipcodefield = fd.field('zipcode');
     //const cityfield = fd.field('city');
     
-    zipField.$on('change', function (value) {
+    zipcodefield.$on('change', function (value) {
         const zipcode = value;
 
         if (!zipcode || zipcode.length !== 4) {
