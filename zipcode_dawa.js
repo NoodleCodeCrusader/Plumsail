@@ -1,6 +1,6 @@
 function DawaZipCodeLookUp () {
-    const zipcodefield = fd.field('post_nr');
-    const cityfield = fd.field('by');
+    const zipcodefield = fd.field('zipcode');
+    const cityfield = fd.field('city');
 
     zipcodefield.$on('change', function (value) {
         const zipcode = value;
