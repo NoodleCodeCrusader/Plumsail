@@ -10,7 +10,7 @@ function DawaZipCodeLookUp () {
             return;
         }
 
-        fetch('https://dawa.aws.dk/postnumre/' + postnummer)
+        fetch('https://dawa.aws.dk/postnumre/' + zipcode)
             .then(function (response) {
                 if (!response.ok) {
                     throw new Error('Postnummer ikke fundet');
